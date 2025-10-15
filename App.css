@@ -1,0 +1,204 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  border-radius: 8px;
+}
+
+/* Blue gradient hero to match reference style */
+.hero-gradient {
+  background-image: linear-gradient(135deg, #1e40af 0%, #1d4ed8 55%, #0ea5e9 100%);
+}
+
+.App-header h1 {
+  margin: 0 0 16px 0;
+  font-size: 2.5rem;
+}
+
+.App-header p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 16px auto;
+}
+
+.primary-button {
+  display: inline-block;
+  background: #61dafb;
+  color: #000;
+  padding: 10px 18px;
+  border: 0;
+  border-radius: 9999px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Light CTA variant used on hero */
+.cta-hero {
+  background: #ffffff;
+  color: #1d4ed8;
+}
+
+.page-content {
+  margin: 24px 0;
+}
+
+/* Stats strip inspired by reference */
+.stats-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  background: #ffffff;
+  color: #111827;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 16px 0 24px 0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.stat-card {
+  text-align: center;
+  padding: 8px 6px;
+}
+
+.stat-value {
+  font-size: 1.75rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 0;
+}
+
+.info-card {
+  background: #282c34;
+  color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.section-title {
+  margin: 0 0 10px 0;
+  font-size: 1.5rem;
+}
+
+.section-block {
+  background: #282c34;
+  color: #fff;
+  margin: 16px 0;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.step-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #61dafb;
+  color: #000;
+  border-radius: 9999px;
+  width: 28px;
+  height: 28px;
+  font-weight: 700;
+  margin-right: 8px;
+}
+
+.bulleted-list {
+  padding: 0 0 0 18px;
+  margin: 0;
+}
+
+.section-subtitle {
+  margin: 6px 0 16px 0;
+}
+
+/* Pricing */
+.pricing .section-subtitle { opacity: 0.9; }
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.pricing-card {
+  background: #ffffff;
+  color: #111827;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: left;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+.pricing-title { margin: 0 0 8px 0; font-size: 1.25rem; }
+.pricing-price { font-weight: 700; margin: 0 0 12px 0; }
+.pricing-list { margin: 0 0 16px 0; padding: 0 0 0 18px; }
+
+/* Testimonials */
+.testimonials .section-title { margin-bottom: 8px; }
+.testimonial-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; grid-template-columns: 1fr 1fr; }
+.testimonial-card {
+  background: #ffffff;
+  color: #111827;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+.stars { color: #f59e0b; font-weight: 700; margin-bottom: 6px; }
+.attribution { opacity: 0.8; margin-top: 8px; }
+
+/* FAQ */
+.faq-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.faq-item { border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 8px; }
+.faq-question { width: 100%; text-align: left; background: transparent; color: #fff; border: 0; padding: 12px 14px; font-weight: 600; cursor: pointer; }
+.faq-answer { padding: 0 14px 12px 14px; color: #e5e7eb; }
+
+.intake-form { display: grid; gap: 12px; }
+
+.form-row { display: grid; gap: 6px; }
+
+.form-row input,
+.form-row textarea {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.form-actions { display: flex; justify-content: flex-start; }
+
+.success-banner { background: rgba(97, 218, 251, 0.15); border: 1px solid #61dafb; color: #fff; padding: 12px; border-radius: 8px; }
+.error-banner { background: rgba(239, 68, 68, 0.15); border: 1px solid #ef4444; color: #fff; padding: 12px; border-radius: 8px; }
+
+.site-footer { opacity: 0.9; margin-top: 24px; }
+
+@media (max-width: 900px) {
+  .section-grid { grid-template-columns: 1fr; }
+  .steps-list { grid-template-columns: 1fr; }
+  .stats-strip { grid-template-columns: repeat(2, 1fr); }
+  .pricing-grid { grid-template-columns: 1fr; }
+  .testimonial-list { grid-template-columns: 1fr; }
+}
